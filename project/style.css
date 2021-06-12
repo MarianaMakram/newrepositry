@@ -1,0 +1,594 @@
+:root{
+    --main-color: #ac6b12;
+    --second-color:#d6d7d9;
+    --third-color:#2a3c40;
+}
+
+body{
+    background-color:var(--third-color);
+    margin: 0%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("image/1.png");
+    background-size: 100% 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header .contaner{
+    position: relative;
+}
+
+header .contaner .logo{
+    position: absolute;
+    left: 5%;
+    top: 0%;
+}
+
+header .contaner .logo img{
+    border: 0;
+    width: 250px;
+    top: 0;
+}
+header .contaner .nav{
+    position: absolute;
+    left: 45%;
+    top: 35px;
+    margin: 0;
+    
+}
+
+header .contaner .nav nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 6em;
+    font-size: 1.5em;
+}
+
+header .contaner .nav nav ul li a{
+    text-decoration: none;
+    color: #dee0e2;
+}
+
+header .contaner .nav nav ul li a:hover{
+    color: var(--main-color);
+}
+
+header .contaner .text{
+    position: absolute;
+    background-color: #d9dada;
+    opacity: 0.9;
+    margin: 0;
+    left: 23%;
+    top: 150px;
+    width: 55%;
+    text-align: center;
+}
+
+header .contaner .text h1{
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: bold;
+    font-size: 60px;
+    color: var(--main-color);
+    margin-bottom: 1%;
+}
+
+header .contaner .text h3{
+    color: #2c3a42;
+    font-size: 50px;
+    margin-top: 13%;
+    margin-bottom: 0%;
+    
+}
+
+header .contaner .text button{
+    width: 25%;
+    border-style: none;
+    background-color: #ffffff;
+    height: 2em;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-bottom: 4em;
+    
+}
+
+header .contaner .text button a{
+    color: #2c3a42;
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+header .contaner .text button a:hover{
+    color: var(--main-color);
+}
+/* section1 */
+
+
+.sec1 .contaner .inner,
+.sec1 .contaner .image{
+    display: inline-block;
+    width: 40%;
+    padding-left: 5%;
+    
+}
+
+.sec1 .contaner .image{
+    padding-top: 2%;
+}
+
+.sec1 .contaner .inner{
+    padding-bottom: 3%;
+}
+
+.sec1 .contaner .inner h4,
+.sec1 .contaner .inner p{
+    color: var(--second-color);
+    text-align: left;
+}
+
+.sec1 .contaner .image img{
+    width: 500px;
+    height: 250px;
+}
+
+/* section2 */
+
+.sec2{
+    background-color: var(--second-color);
+}
+
+.sec2 .inner{
+    display: inline-block;
+    width: 25%;
+    padding-left: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.sec2 .inner i ,
+.sec2 .inner p,
+.sec2 .inner h5{
+    text-align: left;
+    color: var(--third-color);
+    padding-left: 1%;
+}
+
+.sec2 .inner i{
+    size: 3rem;
+}
+
+/* section3 */
+
+.sec3{
+    background-image: url("image/9.png");
+    background-size: 100% 100%;
+    padding-left: 12%;
+    padding-top: 6%;
+    padding-right: 12%;
+    padding-bottom: 6%;
+}
+
+.sec3 .out{
+    background-color: var(--second-color);
+    opacity: 0.8;
+}
+
+.sec3 .out h3, h4{
+    font-size: 25px;
+    text-align: center;
+}
+
+.sec3 .out h4{
+    color: var(--main-color);
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.sec3 .out h3{
+    color: var(--third-color);
+    padding-top: 3%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.sec3 .out .col{
+    display: inline-block;
+    width: 24%;
+}
+
+.sec3 .out .col p,
+.sec3 .out .col h5{
+    color: var(--third-color);
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.sec3 .out .col img{
+    width: 80%;
+}
+
+/* section4 */
+
+.sec4{
+    background-color: var(--second-color);
+}
+
+.sec4 .out{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.sec4 .out .inner{
+    display: inline-block;
+    width: 60%;
+    padding-left: 4%;
+    padding-bottom: 2%;
+}
+
+.sec4 .out .inner h4,
+.sec4 .out .inner p,
+.sec4 .out .inner .bull{
+    color: var(--third-color);
+}
+
+
+.sec4 .out .list li{
+    display: inline-block;
+    width: 20%;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.sec4 .out .list li a{
+    color: var(--third-color);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.sec4 .out .list li a:hover {
+    color: var(--main-color);
+} 
+
+/* section5 */
+
+.sec5{
+    background-image: url("image/11.png");
+    size: 100% 100%;
+    padding-top: 18%;
+    padding-bottom: 0;
+}
+
+.sec5 .out{
+    
+    background-color: var(--second-color);
+    opacity: 0.8;
+}
+
+.sec5 .out .col{
+    display: inline-block;
+    width: 30%;
+    padding-left: 15%;
+    padding-right: 0;
+    padding-top: 2%;
+}
+
+.sec5 .out h3{
+    text-align: center;
+    color: var(--third-color);
+    padding-top: 3%;
+    padding-bottom: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.sec5 .out h4{
+    text-align: center;
+    color: var(--main-color);
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+
+.sec5 .out .col .row .icon,
+.sec5 .out .col .row .text{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.sec5 .out .col .row .icon{
+    width: 5%;
+}
+
+.sec5 .out .col .row .icon i{
+    color: var(--third-color);
+}
+
+.sec5 .out .col .row .text{
+    width: 90%;
+}
+
+.sec5 .out .col .row .text p,
+.sec5 .out .col .row .text h5{
+    color: var(--third-color);
+    text-align: left;
+}
+
+/* section6 */
+
+.sec6 div img{
+    width: 100%;
+}
+
+/* section7 */
+
+.sec7 .out h3{
+    text-align: center;
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sec7 .out form .col{
+    display: inline-block;
+    width: 25%;
+    padding-left: 5%;
+    padding-right: 0;
+    margin: 0;
+}
+
+.sec7 .out form .col .row,
+.sec7 .out form .col .row2{
+    padding-top: 2%;
+    margin: 0;
+    color: var(--second-color);
+}
+
+
+.sec7 .out form .col .row2 input,
+.sec7 .out form .col .row2 select{
+    width: 60%;
+    background-color: var(--third-color);
+    border: 2px solid var(--second-color);
+    border-radius: 8px;
+}
+
+.sec7 .out form .col .row2{
+    padding-bottom: 10%;
+}
+
+.sec7 .out form .sub{
+    display: inline-block;
+    width: 40%;
+    padding-left: 35%;
+    padding-bottom: 3%;
+}
+
+.sec7 .out form .sub input{
+    width: 40%;
+    background-color: var(--third-color);
+    border: 2px solid var(--second-color);
+    color: var(--second-color);
+    border-radius: 8px;
+}
+
+.sec7 .out form .sub input:hover{
+    color: var(--third-color);
+    background-color: var(--second-color);
+}
+
+/* section8 */
+
+.sec8 div{
+    background-color: var(--second-color);
+}
+.sec8 div img{
+    width:100%;
+}
+
+/* section9 */
+
+.sec9{
+    background-color: var(--second-color);
+}
+
+.sec9 .out h3{
+    margin: 0%;
+    padding-top: 3%;
+    text-align: center;
+    font-size: 3.2em;
+    color: var(--main-color);
+    padding-bottom: 0;
+}
+
+.sec9 .out h4{
+    text-align: center;
+    color: var(--third-color);
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: lighter;
+    font-size: 2.8em;
+    margin-bottom: 2%;
+}
+
+.sec9 .out .inner{
+    padding-left: 10%;
+    padding-bottom: 8%;
+}
+
+.sec9 .out .inner .col{
+    display: inline-block;
+    width: 27%;
+    margin-left: 2%;
+    background-color: white;
+    padding-bottom: 2%;
+}
+
+.sec9 .out .inner .col p,
+.sec9 .out .inner .col h5,
+.sec9 .out .inner .col h6,
+.sec9 .out .inner .col a{
+    padding-left: 7%;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    color: var(--third-color);
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sec9 .out .inner .col a{
+    text-decoration-style:solid;
+    text-decoration-thickness: 40%;
+    text-decoration-color: var(--main-color);
+    font-weight: bold;
+    /* border-bottom: 5px solid var(--main-color); */
+    
+}
+
+.sec9 .out .inner .col a:hover{
+    color: var(--main-color);
+}
+
+.sec9 .out .inner .col img{
+    width: 100%;
+}
+
+/* section10 */
+
+.sec10{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+.sec10 .out h3{
+    font-size: 2em;
+}
+.sec10 .out h3,
+.sec10 .out p ,
+.sec10 .out h5 ,
+.sec10 .out ul{
+    text-align: center;
+    color: var(--second-color);
+    font-size: 1.1em
+}
+
+
+.sec10 .out ul{
+    padding-top: 3%;
+    list-style: none;
+}
+
+.sec10 .out ul li{
+    display: inline-block;
+    width: 10%;
+}
+.sec10 .out ul li a{
+    text-align: center;
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.sec10 .out ul li a:hover{
+    color: var(--main-color);
+}
+
+.sec10 .out ul li a i{
+    font-size: 2em;
+}
+/* footer */
+
+footer{
+    background-color: var(--second-color);
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+footer .col{
+    display: inline-block;
+    width: 35%;
+    padding-left: 10%;
+    text-align: left;
+    color: var(--third-color);
+}
+
+footer .col h5,
+footer .col .innerCol h5{
+    font-size: 1.2em;
+}
+
+footer .col .innerCol{
+    display: inline-block;
+    width: 30%;
+}
+
+footer .col .innerCol ul{
+    padding-left: 0;
+}
+
+footer .col .innerCol ul li{
+    list-style: none;
+    text-align: left;
+}
+
+footer .col .innerCol ul li a{
+    text-decoration: none;
+    color: var(--third-color);
+    font-size: 1.2em;
+}
+
+footer .col .innerCol ul li a:hover{
+    color: var(--main-color);
+}
+/* sign up form */
+
+header .contaner form{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    background-color: var(--second-color);
+    opacity: 0.8;
+    width: 70%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+header .contaner form a{
+    text-decoration: none;
+    
+}
+
+header .contaner form input[type=submit]{
+    color: var(--third-color);
+}
+
+header .contaner form input[type=submit]:hover,
+header .contaner form input[type=reset]:hover{
+    color: var(--main-color);
+}
+
+header .contaner form label{
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+header .contaner form a .button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
